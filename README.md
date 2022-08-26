@@ -86,7 +86,7 @@ x_train_scaled
 ai_brain = Sequential([
     Dense(12,activation='relu'),
     Dense(6,activation='relu'),
-    Dense(2,activation='relu'),
+    Dense(3,activation='relu'),
     Dense(1)
 ])
 ai_brain.compile(optimizer='rmsprop',loss='mse')
