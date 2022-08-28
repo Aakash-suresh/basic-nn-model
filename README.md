@@ -105,7 +105,7 @@ x_test_scaled
 
 ai_brain.evaluate(x_test,y_test)
 
-input=[[1]]
+input=[[2000]]
 input_scaled=scaler.transform(input)
 input_scaled.shape
 
